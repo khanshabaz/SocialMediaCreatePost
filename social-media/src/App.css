@@ -1,0 +1,44 @@
+.app-container{
+  display: flex;
+}
+
+.content{
+  width: 100%;
+}
+.welcome-message{
+  margin: 100px 0;
+}
+.sidebar{
+  min-height: 800px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto; 
+  border-right: 1px solid #dee2e6;
+}
+.sidebar .p-3 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.post-card{
+  margin: 20px 50px;
+}
+
+.hashtags{
+  margin: 0px 3px;
+}
+
+.reaction{
+  margin: 15px 0 0 0;
+}
+
+.create-post{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+.spinner{
+  width: 5rem;
+  height: 5rem;
+  margin: 10% 0;
+}
